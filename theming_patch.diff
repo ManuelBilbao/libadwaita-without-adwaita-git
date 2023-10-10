@@ -1,4 +1,4 @@
-232a233,248
+230a231,246
 > adw_style_manager_theme_changed(GSettings *settings, const char *key, GdkDisplay *display)
 > {
 >   char *theme = g_settings_get_string(settings, "gtk-theme");
@@ -15,7 +15,7 @@
 > 
 > 
 > static void
-257,269c273,280
+255,267c271,278
 <       g_object_set (gtk_settings_get_for_display (self->display),
 <                     "gtk-theme-name", "Adwaita-empty",
 <                     NULL);
